@@ -1,2 +1,7 @@
+Level 1:
 grid-column-start: 3;
+
+Level 2:
 grid-column-start: 5;
+
+Level 3:
