@@ -20,3 +20,9 @@ Level 7:
 grid-column-end: span 2;
 
 Level 8:
+grid-column-start: span 5;
+
+Level 9:
+grid-column-start: span 3;
+
+Level 10:
