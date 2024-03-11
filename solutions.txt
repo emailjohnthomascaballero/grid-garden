@@ -16,6 +16,8 @@ grid-column-end: -5
 
 Level 5:
 grid-column-end: 5;
+or
+grid-column-end: span 4;
 
 Level 6:
 grid-column-start: -3;
@@ -39,6 +41,8 @@ grid-column-start: 3;
 
 Level 10:
 grid-column: 4 / 6;
+or
+grid-column: 4 / span 5;
 
 Level 11:
 grid-column: 2 / 5;
@@ -51,26 +55,33 @@ grid-row-start: 3;
 Level 13:
 grid-row: 3 / 6;
 or
-grid-row: 3 / span 3
+grid-row: 3 / span 3;
 
 Level 14:
 grid-row: 5;
-grid-column: 2
+grid-column: 2;
+or
+grid-column: 2;
+grid-row: -2;
 
 Level 15:
 grid-column: 2 / 6;
-grid-row: 1 / 6
+grid-row: 1 / 6;
 or 
-grid-column: 2 / span 5;
+grid-column: 2 / span 4; (4 and above)
 grid-row: 1 / span 5;
 
 Level 16:
-grid-area: 1 / 2 / 4 / 6;
+grid-area: 1 / 2 / 4 / 6; (6 and above)
 or 
 grid-area: 1 / 2 / span 3 / span 4;
+or
+grid-area: 1 / 2 / 4 / span 4; (span 4 and above)
 
 Level 17:
-grid-area: 2 / 3 / 5 / 6
+grid-area: 2 / 3 / 5 / 6;
+or
+grid-area: 2 / 3 / 5 / span 3; (span 3 and above)
 
 Level 18:
 order: 5
