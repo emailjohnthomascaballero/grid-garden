@@ -38,30 +38,54 @@ Level 9:
 grid-column-start: span 3;
 or
 grid-column-start: 3;
+or
+grid-column-start: -4;
 
 Level 10:
 grid-column: 4 / 6;
 or
 grid-column: 4 / span 5;
+or
+grid-column: -3 / 6;
+or
+grid-column: -3 / span 2; (span 2 and above)
 
 Level 11:
 grid-column: 2 / 5;
 or
 grid-column: 2 / span 3;
+or
+grid-column: -5 / 5;
+or
+grid-column: -5 / span 3;
 
 Level 12:
 grid-row-start: 3;
+or
+grid-row-start: -4;
 
 Level 13:
 grid-row: 3 / 6;
 or
 grid-row: 3 / span 3;
+or
+grid-row: -4 / 6; (6 and above)
+or
+grid-row: -4 / span 3; (span 3 and above)
+or
+grid-row: -4 / -1;
 
 Level 14:
 grid-row: 5;
 grid-column: 2;
 or
 grid-column: 2;
+grid-row: -2;
+or
+grid-column: -5;
+grid-row: 5;
+or
+grid-column: -5;
 grid-row: -2;
 
 Level 15:
@@ -70,23 +94,61 @@ grid-row: 1 / 6;
 or 
 grid-column: 2 / span 4; (4 and above)
 grid-row: 1 / span 5;
+or
+grid-column: -5 / 6;
+grid-row: span 5;
+or
+grid-column: -5 / span 4; (span 4 and above)
+grid-row: span 5;
+or
+grid-column: -5 / span 4; (span 4 and above)
+grid-row: -6 / span 5;
+or
+grid-column: -5 / span 4;
+grid-row: -6 / -1;
+or
+grid-column: -5 / -1;
+grid-row: -6 / -1;
 
 Level 16:
 grid-area: 1 / 2 / 4 / 6; (6 and above)
 or 
-grid-area: 1 / 2 / span 3 / span 4;
+grid-area: 1 / 2 / span 3 / span 4; (span 4 and above)
 or
 grid-area: 1 / 2 / 4 / span 4; (span 4 and above)
+or
+grid-area: -6 / 2 / 4 / 6; (6 and above)
+or
+grid-area: -6 / -5 / 4 / 6; (6 and above)
+or
+grid-area: -6 / -5 / -3 / 6; (6 and above)
+or
+grid-area: -6 / -5 / -3 / -1;
+or
+grid-area: -6 / -5 / -3 / span 4; (span 4 and above)
+or
+grid-area: -6 / -5 / span 3 / span 4; (span 4 and above)
+or 
+grid-area: -6 / 2 / span 3 / span 4; (span 4 and above)
 
 Level 17:
-grid-area: 2 / 3 / 5 / 6;
+grid-area: 2 / 3 / 5 / 6; (6 and above)
 or
 grid-area: 2 / 3 / 5 / span 3; (span 3 and above)
+or
+grid-area: 2 / 3 / span 3 / span 3; (<grid-column-end> span 3 and above)
+or
+grid-area: 2 / -4 / span 3 / span 3; (<grid-column-end> span 3 and above)
+or
+grid-area: -5 / -4 / span 3 / span 3; (<grid-column-end> span 3 and above)
 
 Level 18:
-order: 5;
+order: 1; (1 and above)
 
 Level 19:
 order: -1;
 
 Level 20:
+grid-template-columns: 50%;
+
+Level 21:

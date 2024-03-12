@@ -1,4 +1,4 @@
-<h1 id="readme-top">MY FLEXBOX FROGGY JOURNEY</h1>
+<h1 id="readme-top">MY GRID GARDEN JOURNEY</h1>
 <p class="header">
 This GitHub repository documents my Grid Garden adventure—a compilation of grid layout challenges, associated solutions, and a log of my progress as I hone my skills in mastering the principles of grid layouts.</p>
 
