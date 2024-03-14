@@ -61,6 +61,10 @@ grid-column: 4 / 6; (6 and above)
 or
 grid-column: 4 / span 2; (span 2 and above)
 or
+grid-column: 4 / -1;
+or
+grid-column: -3 / -1;
+or
 grid-column: -3 / 6; (6 and above)
 or
 grid-column: -3 / span 2; (span 2 and above)
@@ -73,6 +77,10 @@ or
 grid-column: -5 / 5;
 or
 grid-column: -5 / span 3;
+or
+grid-column: -5 / -2;
+or
+grid-column: 2 / -2;
 
 Level 12:
 grid-row-start: 3;
@@ -130,6 +138,8 @@ grid-area: 1 / 2 / 4 / 6; (6 and above)
 or 
 grid-area: 1 / 2 / span 3 / span 4; (span 4 and above)
 or
+grid-area: 1 / 2 / span 3 / 6; (span 6 and above)
+or
 grid-area: 1 / 2 / 4 / span 4; (span 4 and above)
 or
 grid-area: -6 / 2 / 4 / 6; (6 and above)
@@ -149,21 +159,30 @@ grid-area: -6 / 2 / span 3 / span 4; (span 4 and above)
 Level 17:
 grid-area: 2 / 3 / 5 / 6; (6 and above)
 or
+grid-area: 2 / 3 / span 3 / 6; (6 and above)
+or
 grid-area: 2 / 3 / 5 / span 3; (span 3 and above)
 or
 grid-area: 2 / 3 / span 3 / span 3; (<grid-column-end> span 3 and above)
 or
 grid-area: 2 / -4 / span 3 / span 3; (<grid-column-end> span 3 and above)
 or
-grid-area: -5 / -4 / span 3 / span 3; (<grid-column-end> span 3 and above)
+grid-area: 2 / -4 / span 3 / 6; (6 and above)
+or
+grid-area: -5 / -4 / span 3 / span 3; (<grid-column-end> span 3 and above)4
+or
+grid-area: -5 / -4 / span 3 / 6; (6 and above)
 
 Level 18:
 order: 1; (1 and above)
 
 Level 19:
-order: -1;
+order: -1; (-1 and below)
 
 Level 20:
 grid-template-columns: 50%;
 
 Level 21:
+grid-template-columns: repeat(8, 12.5%);
+
+Level 22:
