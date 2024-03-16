@@ -199,3 +199,6 @@ LEVEL 22:
 grid-template-columns: 100px 3em 40%;
 
 LEVEL 23:
+grid-template-columns: 1fr 5fr;
+
+LEVEL 24:
