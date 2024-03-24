@@ -29,11 +29,11 @@ or
 grid-column-end: -5;
 
 LEVEL 5:
+grid-column-end: -2;
+or
 grid-column-end: 5;
 or
 grid-column-end: span 4;
-or
-grid-column-end: -2;
 
 LEVEL 6:
 grid-column-start: -3;
@@ -51,13 +51,12 @@ grid-column-end: 4;
 or
 grid-column-end: -3;
 
-
 LEVEL 8:
-grid-column-start: span 5;
-or
 grid-column-end: 6;
 or
 grid-column-end: -1;
+or
+grid-column-start: span 5;
 
 LEVEL 9:
 grid-column-start: span 3;
@@ -80,9 +79,9 @@ or
 grid-column: -3 / span 2; (span 2 and above)
 
 LEVEL 11:
-grid-column: 2 / 5;
-or
 grid-column: 2 / span 3;
+or
+grid-column: 2 / 5;
 or
 grid-column: -5 / 5;
 or
@@ -98,7 +97,7 @@ or
 grid-row-start: -4;
 
 LEVEL 13:
-grid-row: 3 / 6;
+grid-row: 3 / 6; (6 and above)
 or
 grid-row: 3 / span 3;
 or
@@ -109,8 +108,8 @@ or
 grid-row: -4 / -1;
 
 LEVEL 14:
-grid-row: 5;
 grid-column: 2;
+grid-row: 5;
 or
 grid-column: 2;
 grid-row: -2;
@@ -122,7 +121,7 @@ grid-column: -5;
 grid-row: -2;
 
 LEVEL 15:
-grid-column: 2 / 6;
+grid-column: 2 / 6; (6 and above)
 grid-row: 1 / 6;
 or 
 grid-column: 2 / span 4; (4 and above)
@@ -199,6 +198,8 @@ LEVEL 22:
 grid-template-columns: 100px 3em 40%;
 
 LEVEL 23:
+grid-template-columns: 0.6fr 3fr;
+or
 grid-template-columns: 1fr 5fr;
 
 LEVEL 24:
